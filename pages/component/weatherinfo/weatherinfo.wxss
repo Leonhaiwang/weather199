@@ -1,0 +1,54 @@
+.weui-input{
+  text-align: center;
+  height:100rpx;
+  border: 1px #000 black;
+}
+.middle-inner{
+  display: flex;
+}
+.info-left{
+  width: 50%;
+  height: 300rpx;
+  background-color: #87CEFA;
+}
+.info-right{
+  width: 50%;
+  height: 300rpx;
+  background-color: #AFEEEE;
+}
+.info-left, .info-right{
+  flex: 1;
+  line-height: 300rpx;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-inner{
+  flex: 1;
+}
+.top-inner{ 
+  text-align: center;
+  width: 100%;
+  height: 600rpx;
+  background: linear-gradient(to top right , #fff , #87CEFA);
+}
+
+.address{
+  padding-top: 40rpx;
+  font-size: 32rpx;
+  font-weight: 200px;
+}
+.wind-text{
+  color: #fff;
+
+  background-color: darkorange;
+}
+.temp{
+  font-weight: lighter;
+  font-size: 200rpx;
+}
+.message{
+  padding: 50rpx 0;
+  font-size: 30rpx;
+  color: gray;
+}

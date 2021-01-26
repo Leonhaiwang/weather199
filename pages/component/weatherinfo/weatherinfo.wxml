@@ -1,0 +1,8 @@
+<view class="top-inner">
+    <view class="address">地址 : {{nowlocation}}</view>
+    <view class="temp">{{nowtemp}}</view>
+    <view>{{nowtext}} | <text class="wind-text">{{nowwindDir}}</text></view>
+    <view class="message">
+      风力 {{nowwindScale}}  风速  {{nowwindSpeed}}  能见度 {{nowvis}} 米
+    </view>
+  </view>

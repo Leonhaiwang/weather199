@@ -1,0 +1,15 @@
+<view class="middle-inner">
+  <view class="info-left">
+    <view>明天</view>
+    <view>{{tomorrowText}}</view>
+    <view>{{tomorrowTempMax}}/{{tomorrowTempMin}}</view>
+    <view><text class="wind-color-to">{{tomorrowWind}}</text></view>
+  </view>
+  <view class="info-right">
+    <view>后天</view>
+    <view>{{afterTomtomorrowText}}</view>
+    <view >{{afterTomtomorrowTempMax}}/{{afterTomtomorrowTempMin}}</view>
+    
+    <view ><text class="wind-color">{{afterTomtomorrowWind}}</text> </view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<view>
+  <form bindsubmit = "formsubmit" >
+    <text>邮箱:</text><input class="in" name = "name" type="text" value="{{email}}" bindinput="emailChange" placeholder="请输入邮箱"/>
+    <view style="text-align:center;color:red;">
+      {{message}}
+    </view>
+    <text>手机号:</text><input class="in" name = "class" type="text" value="{{phonebumber}}" bindinput="phoneChange" placeholder="请输入手机号" />
+    <view style="text-align:center;color:red;">
+
+    {{phonemessage}}
+  </view>
+    <button form-type="submit" bindtap="btnSub">提交</button>
+  </form>
+ 
+</view>

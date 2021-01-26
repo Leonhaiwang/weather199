@@ -1,0 +1,22 @@
+<view class="wrapper">
+  <weather-info nowlocation="{{nowlocation}}" nowtemp="{{nowtemp}}" nowtext="{{nowtext}}" nowwindDir="{{nowwindDir}}"
+    nowwindScale="{{nowwindScale}}" nowwindSpeed="{{nowwindSpeed}}" nowvis="{{nowvis}}"></weather-info>
+
+  <weather-middle-info tomorrowText="{{tomorrowText}}" tomorrowTempMax="{{tomorrowTempMax}}"
+    afterTomtomorrowText="{{afterTomtomorrowText}}" afterTomtomorrowTempMax="{{afterTomtomorrowTempMax}}"
+    tomorrowTempMin="{{tomorrowTempMin}}"
+    tomorrowWind="{{tomorrowWind}}"
+    afterTomtomorrowTempMin="{{afterTomtomorrowTempMin}}"
+    afterTomtomorrowWind="{{afterTomtomorrowWind}}"
+    bindmyevent="on"
+    class="namemmm"
+    >
+  </weather-middle-info>
+  
+  <view class="bottom-inner">
+    <form bindsubmit="searchBox">
+      <input class="weui-input" placeholder="输入城市信息" name="searchCityValue" bindinput="nowlocaChange" />
+      <button form-type="submit" bindtap="searchCityInfo">城市信息搜索</button>
+    </form>
+  </view>
+</view>

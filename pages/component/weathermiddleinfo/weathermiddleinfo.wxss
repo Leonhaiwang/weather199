@@ -1,0 +1,50 @@
+.weui-input{
+  text-align: center;
+  height:100rpx;
+  border: 1px #000 black;
+}
+.middle-inner{
+  display: flex;
+}
+.wind-color{
+  background-color: #e6cf5b;
+  color: #fff;
+}
+.wind-color-to{
+  background-color: #efa851;
+  color: #fff;
+}
+.info-left{
+  border-right: 1px #dee2e2 solid;
+}
+.info-left,.info-right{
+  width: 50%;
+  height: 250rpx;
+  background-color:#f3fafd;
+  flex: 1;
+  line-height: 250rpx;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-inner{
+  flex: 1;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.address{
+  padding-top: 40rpx;
+  font-size: 35rpx;
+}
+.temp{
+  /* margin: 10rpx 0; */
+  font-size: 170rpx;
+}
+.message{
+  padding: 50rpx 0;
+}

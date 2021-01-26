@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "weather-info":"../component/weatherinfo/weatherinfo",
+    "weather-middle-info":"../component/weathermiddleinfo/weathermiddleinfo"
+
+  }
+}

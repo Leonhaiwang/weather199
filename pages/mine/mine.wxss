@@ -1,0 +1,11 @@
+/* pages/mine/mine.wxss */
+.movouter{
+  width: 400rpx;
+  height: 400rpx;
+  background-color: coral;
+}
+.movinner{
+  width: 100rpx;
+  height: 100rpx;
+  background-color: blue;
+}

@@ -1,0 +1,9 @@
+<view style="text-align:center;color:red;">
+  mine
+</view>
+<view>
+  <comform bindmyevent="onMyEvent" >
+  </comform>
+  
+
+</view>
